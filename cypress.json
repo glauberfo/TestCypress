@@ -1,0 +1,11 @@
+{
+"baseUrl": "https://dev-admin.autosky.cloud/",
+  "watchForFileChanges": false,
+  "viewportWidth": 1000,
+  "viewportHeight": 660,
+  "experimentalSessionAndOrigin": true,
+  "chromeWebSecurity": false,
+  "testFiles": "**/*.feature",
+  "projectId": "82fqav",
+  "gmail": ""
+}

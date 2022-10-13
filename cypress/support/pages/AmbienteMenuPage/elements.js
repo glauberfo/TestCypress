@@ -1,0 +1,58 @@
+export const ELEMENTS = {
+  /**
+   * @author Glauber Oliveira
+   * Mapeamentos dos elementos do Menu Ambiente
+   */
+
+  campoInstancias: '//*[@id="8708b38b-2c8a-4711-81d0-e8a05a63e647"]/ul/li[1]/a',
+  btnAtivar: '#btn-ativar-instância',
+  btnAcoesGerais: '#button-group-icon',
+  btnGerenciar: '[id="dLabel"]',
+  btnAtivarInstanciaAtiva: "h3 > :nth-child(1) > #dLabel",
+  ativar1instancia: ":nth-child(7) > .MuiPaper-root > .MuiList-root > [tabindex='0']",
+  mensagemConfirmacao1instancia: ".alert-info > p",
+  mensagemTermino1instancia:".content > .text-center",
+  menuAwsRoboPeriodos: ".submenu",
+  menuAwsRoboPeriodosSubInstancia:
+    "708b38b-2c8a-4711-81d0-e8a05a63e647 > .nav > :nth-child(1) > a",
+  menuAwsRoboMicro: "#fbbee914-ab83-4deb-ac6f-f4337b7e5cb6 > .tree-toggler",
+  menuGcpPeriodos: "#df55a706-ed55-4272-9f5a-84c8c9a80699 > .tree-toggler",
+  menuVictor: "#e575e520-f988-4ea4-b552-049bbfbea476 > .tree-toggler",
+  selecionarTodasInstancias:"#select_all_inst",
+  botaoAcao:":nth-child(2) > #dLabel",
+  botaoConfirmaTerminarInstancias:".btn-primary",
+  terminarInstancias:":nth-child(1) > .batch-actions",
+  btnMenuLateral:'#btn-options-envs-2 > .MuiIconButton-label > .MuiSvgIcon-root',
+  esperarInstancias:"[aria-label='Instância: activate to sort column ascending']",
+  clicarListarAmbientes: '[href="/environments"]',
+  clicarMenuInstancias: ':nth-child(5) > [style="width: 10px;"] > .MuiButtonBase-root > .MuiIconButton-label > .MuiSvgIcon-root',
+  clicarInstancias: '/html/body/div[3]/div[3]/ul/a[1]',
+  clicaCompanhia: '#select-company > .MuiButton-label',
+  selectParcAWS: '.MuiTableBody-root > :nth-child(1) > :nth-child(2)',
+  noSelectParc: '#confirm-dialog > .MuiButton-label',
+  selectParcPiloto: '#option-list-91d7112a-470d-4c9b-8d5b-dfa0029b1cf2 > :nth-child(2)',
+  btnSelectRobo: ':nth-child(6) > [style="width: 10px;"] > .MuiButtonBase-root > .MuiIconButton-label > .MuiSvgIcon-root',
+  btnInstancias: '#btn-instances',
+  btnAcoes: '#button-group-label',
+  btnAtivarInstancia: '[style="z-index: 1; position: absolute; transform: translate3d(566px, 292px, 0px); top: 0px; left: 0px; will-change: transform;"] > .MuiPaper-root > .MuiList-root > [tabindex="0"]',
+  btnAtivaUmaInstancia: '[style="position: absolute; top: 0px; left: 0px; transform: translate3d(693px, 391px, 0px); will-change: transform;"] > .MuiPaper-root > .MuiList-root > [tabindex="0"]',
+  inputPesquisarAmbiente: '#search-environments',
+  btnSelParceiros: '#select-partner',
+  selParceiro: '#option-list-91d7112a-470d-4c9b-8d5b-dfa0029b1cf2 > :nth-child(2)',
+  selParceiroOCI: '#option-list-6a36717f-8fe6-4d16-8fd1-00491ad93fb2 > :nth-child(3)',
+  modalSelCompanhia: '/html/body/div[3]/div[3]/div',
+  btnSelCompanhia: '#confirm-select-partner',
+  btnOpcoes: '#btn-options-envs-0',
+  
+  btnAcoesInstancia: '#btn-options-instances-0',
+  menuOpcoesInstancias: 'MuiList-root MuiMenu-list MuiList-padding',
+  modalMonitorInstancia: '.MuiTypography-h4',
+  msgValidacao: '.MuiAlert-message',
+  btnDialogConfirmar: '#confirm-dialog',
+  modalbtnAcoesInstancias: '/html/body/div[3]/div[3]',
+  btnBloqInstancia: '#btn-block-instance',
+  btnDesbloqInstancia: '#btn-unblock-instance',
+  inputPesquisarCompanhia: '#outlined-search',
+  btnTerminarInstancia: '#btn-terminate-instance',
+  btnTerminarInstanciaAcoesGerais: '#btn-terminar-instância'
+};
